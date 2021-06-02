@@ -52,6 +52,7 @@ h1 {
 
 button {
   background-color: white;
+  color:transparent;
   border:solid;
   border-color: white;
   border-radius: 25px;
