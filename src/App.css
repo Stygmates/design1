@@ -10,6 +10,7 @@
 #general {
   font-family: 'Lexend Deca', sans-serif;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   font-size: 15px;
   border-radius: 10px;
