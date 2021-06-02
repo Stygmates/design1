@@ -30,29 +30,19 @@
   min-height: 400px;
   text-align: left;
   padding: 40px;
+  line-height: 25px;
 }
 
 #sedan {
   background-color: hsl(31, 77%, 52%); 
 }
 
-#sedan .button:hover {
-  color: hsl(31, 77%, 52%); 
-}
-
 #suv {
   background-color: hsl(184, 100%, 22%);
 }
 
-#suv .button:hover {
-  color: hsl(184, 100%, 22%);
-}
-
 #cruise {
   background-color: hsl(179, 100%, 13%);
-}
-#cruise .button:hover {
-  color: hsl(179, 100%, 13%);
 }
 
 h1 {
@@ -61,8 +51,7 @@ h1 {
 }
 
 button {
-  background-color: transparent;
-  color: white;
+  background-color: white;
   border:solid;
   border-color: white;
   border-radius: 25px;
@@ -73,9 +62,9 @@ button {
   min-width: 120px;
 }
 
-.button:hover {
-  color: transparent;
-  background-color: white;
+button:hover {
+  color: white;
+  background-color: transparent;
 }
 
 @media (prefers-reduced-motion: no-preference) {
