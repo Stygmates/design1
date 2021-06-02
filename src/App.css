@@ -37,12 +37,24 @@
   background-color: hsl(31, 77%, 52%); 
 }
 
+#sedan button {
+  color: hsl(31, 77%, 52%); 
+}
+
 #suv {
   background-color: hsl(184, 100%, 22%);
 }
 
+#suv button {
+  color: hsl(184, 100%, 22%);
+}
+
 #cruise {
   background-color: hsl(179, 100%, 13%);
+}
+
+#cruise button {
+  color: hsl(179, 100%, 13%);
 }
 
 h1 {
@@ -52,7 +64,6 @@ h1 {
 
 button {
   background-color: white;
-  color:transparent;
   border:solid;
   border-color: white;
   border-radius: 25px;
@@ -63,7 +74,7 @@ button {
   min-width: 120px;
 }
 
-button:hover {
+#sedan button:hover, #suv button:hover, #cruise button:hover {
   color: white;
   background-color: transparent;
 }
