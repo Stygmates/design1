@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#general {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  width: 70px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 200px;
+  min-height: 400px;
+  text-align: left;
+  padding: 40px;
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%); 
+}
+
+#sedan .button:hover {
+  color: hsl(31, 77%, 52%); 
+}
+
+#suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#suv .button:hover {
+  color: hsl(184, 100%, 22%);
+}
+
+#cruise {
+  background-color: hsl(179, 100%, 13%);
+}
+#cruise .button:hover {
+  color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  border:solid;
+  border-color: white;
+  border-radius: 25px;
+  border-width: medium;
+  margin: 30px;
+  padding: 10px;
+  max-width: 150px;
+}
+
+.button:hover {
+  color: transparent;
+  background-color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
